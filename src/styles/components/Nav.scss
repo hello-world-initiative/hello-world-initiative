@@ -1,0 +1,22 @@
+.nav {
+  background-color: $black;
+  padding: 1.4rem 0;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-link {
+  &:link, &:active, &:visited {
+    color: $turquoise;
+
+    &:hover {
+      color: $white;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import './styles/variables.scss';
+
+@import './styles/base.scss';
+@import './styles/typography.scss';
+
+@import './styles/components/index.scss';
+
+// Placeholder styles for configuration
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  color: $gray;
+  font-size: 3.6rem;
+
+  p {
+    font-size: 1.6rem;
+  }
+}
