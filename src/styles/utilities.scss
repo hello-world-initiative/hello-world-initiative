@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+
+  @include respond(phone) {
+    max-width: 640px;
+  }
+
+  @include respond(tab-port) {
+    max-width: 768px;
+  }
+
+  @include respond(tab-land) {
+    max-width: 1024px;
+  }
+
+  @include respond(big-desktop) {
+    max-width: 1280px;
+  }
+}
