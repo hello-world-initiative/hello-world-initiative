@@ -11,7 +11,7 @@ const links = [
 const Nav = () => {
   return (
     <nav className="nav">
-      <ul className="nav-list">
+      <ul className="nav-list container">
         {
           links.map(link => (
             <li key={link.text} className="nav-item">
