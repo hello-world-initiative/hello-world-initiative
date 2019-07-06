@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.scss';
 
 import Nav from './components/Nav';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Community from './pages/Community';
@@ -21,6 +22,8 @@ function App() {
         <Route exact path="/events" component={Events} />
         <Route component={NotFound} />
       </Switch>
+
+      <Footer />
     </Router>
   );
 }
