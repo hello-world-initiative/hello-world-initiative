@@ -9,8 +9,8 @@ const links = [
 
 const Nav = () => {
   return (
-    <nav className="nav">
-      <div className="container nav-container">
+    <nav className="nav container">
+      <div className="inside-container nav-container">
         <h2 className="nav-title">
           <Link to="/" className="nav-title-link">HWI</Link>
         </h2>

@@ -20,6 +20,7 @@
 
 .inside-container {
   width: $contentWidth;
+  margin: 0 auto;
 
   @include respond(phone) {
     max-width: 640px * $contentWidth;
