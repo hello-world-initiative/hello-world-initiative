@@ -1,0 +1,53 @@
+.header {
+  height: $headerHeight;
+  width: 100%;
+  margin-bottom: 3.2rem;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+// Background image imports are relative to `src/App.scss` - that file imports all other SCSS
+// so we're importing from `./images` rather than `../../images/<example>` even though the latter
+// would be correct relative to here
+.header-home {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(lighten($darkblue, 20%), 0.85),
+    rgba($darkblue, 0.85)),
+  url(./images/home.jpg);
+}
+
+.header-about {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(lighten($darkblue, 20%), 0.85),
+    rgba($darkblue, 0.85)),
+  url(./images/about.jpg);
+}
+
+.header-community {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(lighten($darkblue, 20%), 0.85),
+    rgba($darkblue, 0.85)),
+  url(./images/community.jpg);
+}
+
+.header-events {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(lighten($darkblue, 20%), 0.85),
+    rgba($darkblue, 0.85)),
+  url(./images/events.jpg);
+}
+
+.header-title {
+  margin: 0;
+  color: $gray;
+  font-size: 4.2rem;
+}
