@@ -17,3 +17,23 @@
     max-width: 1280px;
   }
 }
+
+.inside-container {
+  width: $contentWidth;
+
+  @include respond(phone) {
+    max-width: 640px * $contentWidth;
+  }
+
+  @include respond(tab-port) {
+    max-width: 768px * $contentWidth;
+  }
+
+  @include respond(tab-land) {
+    max-width: 1024px * $contentWidth;
+  }
+
+  @include respond(big-desktop) {
+    max-width: 1280px * $contentWidth;
+  }
+}
