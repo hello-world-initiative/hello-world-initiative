@@ -13,17 +13,19 @@ import NotFound from './pages/NotFound';
 function App() {
   return (
     <Router>
-      <Nav />
+      <div className="page">
+        <Nav />
 
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/community" component={Community} />
-        <Route exact path="/events" component={Events} />
-        <Route component={NotFound} />
-      </Switch>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/community" component={Community} />
+          <Route exact path="/events" component={Events} />
+          <Route component={NotFound} />
+        </Switch>
 
-      <Footer />
+        <Footer />
+      </div>
     </Router>
   );
 }

@@ -2,10 +2,10 @@ import React from 'react'
 
 const Events = () => {
   return (
-    <div className="page">
+    <main>
       <h1>Events</h1>
       <p>This is the events page!</p>
-    </div>
+    </main>
   )
 }
 

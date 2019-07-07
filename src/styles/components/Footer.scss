@@ -1,10 +1,14 @@
 .footer {
   background-color: $black;
-  padding: 1.2rem 0;
+  height: $footerHeight;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-text {
