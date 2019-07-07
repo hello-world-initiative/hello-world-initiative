@@ -1,11 +1,14 @@
 import React from 'react'
+import Header from '../components/Header';
 
 const Home = () => {
   return (
-    <main>
-      <h1>Hello World Initiative</h1>
-      <p>Welcome!</p>
-    </main>
+    <>
+      <Header text="Hello World Initiative" pageName="home" />
+      <main>
+        <p>Welcome!</p>
+      </main>
+    </>
   )
 }
 

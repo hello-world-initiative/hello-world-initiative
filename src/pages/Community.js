@@ -1,11 +1,14 @@
 import React from 'react'
+import Header from '../components/Header'
 
 const Community = () => {
   return (
-    <main>
-      <h1>Community</h1>
-      <p>This is the community page!</p>
-    </main>
+    <>
+      <Header text="Community" pageName="community" />
+      <main>
+        <p>This is the community page!</p>
+      </main>
+    </>
   )
 }
 
