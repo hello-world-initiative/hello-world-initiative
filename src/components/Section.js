@@ -12,7 +12,7 @@ const Section = ({color, children}) => {
 }
 
 Section.propTypes = {
-  color: PropTypes.oneOf(['light', 'dark'])
+  color: PropTypes.oneOf(['light', 'dark']).isRequired
 }
 
 export default Section
