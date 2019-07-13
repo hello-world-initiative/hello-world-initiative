@@ -1,0 +1,23 @@
+.heading {
+  font-weight: 400;
+  font-size: 4.2rem;
+  width: 65%;
+}
+
+.heading-left {
+  // WIP
+  &::before {
+
+  }
+}
+
+.heading-right {
+  // WIP
+  &::after {
+
+  }
+}
+
+.heading-highlight {
+  color: $teal;
+}
