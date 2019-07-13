@@ -17,7 +17,7 @@ const About = () => {
             HWI is <span className="heading-highlight">community</span> based.
           </Heading>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur recusandae dolore culpa. Eligendi odit sint ut architecto similique dicta tempore soluta laborum pariatur numquam obcaecati natus id beatae maxime praesentium dolorum, blanditiis repudiandae minima in molestiae a, dolorem nemo doloribus? Rerum dignissimos totam velit unde quasi, enim error nisi nobis?</p>
-          <Heading position="right">
+          <Heading position="left">
             We use <span className="heading-highlight">free or inexpensive</span> online learning materials.
           </Heading>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo minima cumque tempore rerum cupiditate, nobis, hic libero quas non repellat, laborum labore sed eaque consectetur aspernatur officiis architecto fuga. Non accusamus molestias atque quia nihil officia voluptates ipsum. Recusandae dicta dolore ut possimus harum nihil molestiae fugiat quidem laudantium consequatur!</p>
