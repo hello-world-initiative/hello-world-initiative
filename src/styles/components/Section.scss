@@ -1,12 +1,13 @@
 .section {
-  // Todo: put shared section styles here
-  min-height: 200px; // This is a placeholder used for debugging; delete when finished
+  padding: 8rem 0;
 }
 
 .section-dark {
-  // Todo: put dark section styles here
+  background-color: $darkblue;
+  color: $gray;
 }
 
 .section-light {
-  // Todo: put light section styles here
+  background-color: $gray;
+  color: $darkblue;
 }
