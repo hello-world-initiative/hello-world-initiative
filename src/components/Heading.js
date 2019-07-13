@@ -3,9 +3,11 @@ import PropTypes from 'prop-types'
 
 const Heading = ({position, children}) => {
   return (
-    <h2 class={`heading heading-${position}`}>
-      {children}
-    </h2>
+    <div className={`heading-container heading-container-${position}`}>
+      <h2 className={`heading heading-${position}`}>
+        {children}
+      </h2>
+    </div>
   )
 }
 
