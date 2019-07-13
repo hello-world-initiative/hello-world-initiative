@@ -1,10 +1,10 @@
 .heading-container {
   position: relative;
   display: flex;
-  margin-bottom: 4.2rem;
+  margin-bottom: 3rem;
 
   &+p {
-    margin-bottom: 4.2rem;
+    margin-bottom: 7.2rem;
   }
 }
 
@@ -19,7 +19,7 @@
 .heading {
   font-weight: 400;
   font-size: 4.2rem;
-  width: 70%;
+  width: 75%;
 }
 
 .heading-left {
