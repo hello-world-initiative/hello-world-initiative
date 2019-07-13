@@ -3,8 +3,8 @@
   display: flex;
   margin-bottom: 4.2rem;
 
-  & + p {
-    margin-bottom: 4.2;
+  &+p {
+    margin-bottom: 4.2rem;
   }
 }
 
