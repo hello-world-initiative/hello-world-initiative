@@ -16,3 +16,12 @@ Heading.propTypes = {
 }
 
 export default Heading
+
+// Alternate heading to be used in light sections
+export const AlternateHeading = ({children}) => (
+  <div className="heading-container">
+    <h2 className="heading heading-alt">
+      {children}
+    </h2>
+  </div>
+)
