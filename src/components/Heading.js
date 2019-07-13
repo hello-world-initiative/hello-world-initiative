@@ -12,7 +12,7 @@ const Heading = ({position, children}) => {
 }
 
 Heading.propTypes = {
-  color: PropTypes.oneOf(['left', 'right']).isRequired
+  position: PropTypes.oneOf(['left', 'right']).isRequired
 }
 
 export default Heading
