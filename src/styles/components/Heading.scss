@@ -1,7 +1,7 @@
 .heading-container {
   position: relative;
   display: flex;
-
+  margin-bottom: 4.2rem;
 }
 
 .heading-container-left {
@@ -16,22 +16,35 @@
   font-weight: 400;
   font-size: 4.2rem;
   width: 70%;
-  margin-bottom: 2.4rem;
 }
 
 .heading-left {
   text-align: left;
+  padding-left: 2.4rem;
 
   &::before {
-
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background-color: $turquoise;
+    margin-right: 2rem;
   }
 }
 
 .heading-right {
   text-align: right;
+  padding-right: 2.4rem;
 
   &::after {
-
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    background-color: $turquoise;
+    margin-left: 2rem;
   }
 }
 
