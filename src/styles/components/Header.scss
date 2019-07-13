@@ -14,39 +14,36 @@
 // so we're importing from `./images` rather than `../../images/<example>` even though the latter
 // would be correct relative to here
 .header-home {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(lighten($darkblue, 20%), 0.85),
-    rgba($darkblue, 0.85)),
+  background-image: linear-gradient( to right bottom,
+  rgba(lighten($darkblue, 20%), 0.85),
+  rgba($darkblue, 0.85)),
   url(./images/home.jpg);
 }
 
 .header-about {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(lighten($darkblue, 20%), 0.85),
-    rgba($darkblue, 0.85)),
+  background-image: linear-gradient( to right bottom,
+  rgba(lighten($darkblue, 20%), 0.85),
+  rgba($darkblue, 0.85)),
   url(./images/about.jpg);
 }
 
 .header-community {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(lighten($darkblue, 20%), 0.85),
-    rgba($darkblue, 0.85)),
+  background-image: linear-gradient( to right bottom,
+  rgba(lighten($darkblue, 20%), 0.85),
+  rgba($darkblue, 0.85)),
   url(./images/community.jpg);
 }
 
 .header-events {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(lighten($darkblue, 20%), 0.85),
-    rgba($darkblue, 0.85)),
+  background-image: linear-gradient( to right bottom,
+  rgba(lighten($darkblue, 20%), 0.85),
+  rgba($darkblue, 0.85)),
   url(./images/events.jpg);
 }
 
 .header-title {
   margin: 0;
   color: $gray;
-  font-size: 5.6rem;
+  font-size: 7.2rem;
+  font-weight: 400;
 }
