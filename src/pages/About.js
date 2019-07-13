@@ -9,7 +9,7 @@ const About = () => {
       <Header text="About Us" pageName="about" />
       <main>
         <Section color="dark">
-          <Heading postiion="left">
+          <Heading position="left">
             Coding education should be free for <span className="heading-highlight">everyone</span>.
           </Heading>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem temporibus facere doloremque dolorem quisquam iusto labore ut quia molestias qui, eum atque fuga, cumque nesciunt corrupti. Tenetur illo ut, officia consectetur rem ea dolor fuga consequuntur dicta recusandae necessitatibus. Unde esse ipsam, suscipit facere voluptatibus accusamus commodi magni est itaque.</p>
