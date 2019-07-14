@@ -1,0 +1,9 @@
+.article {
+  &:not(:last-child) {
+    margin-bottom: 4.8rem;
+
+    @include respond(md) {
+      margin-bottom: 7.2rem;
+    }
+  }
+}

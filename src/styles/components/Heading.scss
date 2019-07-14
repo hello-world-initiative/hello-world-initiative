@@ -2,14 +2,6 @@
   position: relative;
   display: flex;
   margin-bottom: 3rem;
-
-  &+p {
-    margin-bottom: 4.8rem;
-
-    @include respond(md) {
-      margin-bottom: 7.2rem;
-    }
-  }
 }
 
 .heading-container-left {
