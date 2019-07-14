@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const LinkButton = ({to, text, icon, type}) => (
-  <a href={to} className={`linkButton linkButton-${type}`}>
+  <a href={to} target="_blank" className={`linkButton linkButton-${type}`}>
     <span className="linkButton-text">{text}</span>
     <span className="linkButton-icon">
       <FontAwesomeIcon icon={icon} />
