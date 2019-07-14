@@ -1,8 +1,12 @@
 .linkButton-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
+
+  @include respond(md) {
+    flex-direction: row;
+  }
 }
 
 // Todo: finish these styles
