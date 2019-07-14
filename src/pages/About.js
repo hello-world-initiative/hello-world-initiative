@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Header from '../components/Header'
 import Section from '../components/Section'
 import Heading, {AlternateHeading} from '../components/Heading'
@@ -28,8 +29,7 @@ const About = () => {
         </Section>
         <Section color="light">
           <AlternateHeading>Want to get involved?</AlternateHeading>
-          {/* Todo: Add links to this paragraph */}
-          <p>We have an active online community where you can come to get help, chat about coding, or contribute to projects. We also plan regular events for members to work together and learn in person.</p>
+          <p>We have an active online <Link to="/community">community</Link> where you can come to get help, chat about coding, or contribute to projects. We also plan regular <Link to="/events">events</Link> for members to work together and learn in person.</p>
           <div className="linkButton-container">
             <LinkButton
               to={discordURL}
