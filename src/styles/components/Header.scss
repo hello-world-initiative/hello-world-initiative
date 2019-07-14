@@ -1,8 +1,12 @@
 .header {
-  height: $headerHeight;
+  height: $headerHeight * .6;
   width: 100%;
   background-size: cover;
   background-position: center;
+
+  @include respond(md) {
+    height: $headerHeight;
+  }
 
   display: flex;
   justify-content: center;
