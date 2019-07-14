@@ -18,8 +18,13 @@
 
 .heading {
   font-weight: 400;
-  font-size: 4.2rem;
-  width: 75%;
+  font-size: 3.6rem;
+  width: 100%;
+
+  @include respond(md) {
+    font-size: 4.2rem;
+    width: 75%;
+  }
 }
 
 .heading-left {
