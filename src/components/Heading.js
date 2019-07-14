@@ -18,10 +18,14 @@ Heading.propTypes = {
 export default Heading
 
 // Alternate heading to be used in light sections
-export const AlternateHeading = ({children}) => (
+export const AlternateHeading = ({position, children}) => (
   <div className="heading-container">
-    <h2 className="heading heading-alt">
+    <h2 className={`heading heading-alt heading-alt-${position}`}>
       {children}
     </h2>
   </div>
 )
+
+AlternateHeading.propTypes = {
+  position: PropTypes.oneOf(['left', 'center']).isRequired
+}

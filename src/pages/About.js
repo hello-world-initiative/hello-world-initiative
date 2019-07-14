@@ -28,7 +28,7 @@ const About = () => {
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo minima cumque tempore rerum cupiditate, nobis, hic libero quas non repellat, laborum labore sed eaque consectetur aspernatur officiis architecto fuga. Non accusamus molestias atque quia nihil officia voluptates ipsum. Recusandae dicta dolore ut possimus harum nihil molestiae fugiat quidem laudantium consequatur!</p>
         </Section>
         <Section color="light">
-          <AlternateHeading>Want to get involved?</AlternateHeading>
+          <AlternateHeading position="left">Want to get involved?</AlternateHeading>
           <p>We have an active online <Link to="/community">community</Link> where you can come to get help, chat about coding, or contribute to projects. We also plan regular <Link to="/events">events</Link> for members to work together and learn in person.</p>
           <div className="linkButton-container">
             <LinkButton
