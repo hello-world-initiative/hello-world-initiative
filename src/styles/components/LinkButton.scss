@@ -4,28 +4,55 @@
   justify-content: space-around;
   align-items: center;
 
+
   @include respond(md) {
     flex-direction: row;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  @include respond(lg) {
+    width: 75%;
+    margin: 0 auto;
   }
 }
 
 // Todo: finish these styles
 .linkButton {
-  // Shared styles for all LinkButtons
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem 3.5rem;
+  margin-bottom: 2.5rem;
+
 }
 
-.linkButton-regular {
-  // Styles for regular (outline) version of LinkButton
+.linkButton-regular,
+.linkButton-regular:link,
+.linkButton-regular:visited {
+  border: 3px solid $teal;
+  width: 100%;
+
+  @include respond(md) {
+    width: auto;
+  }
 }
 
-.linkButton-regular {
+.linkButton-solid,
+.linkButton-solid:link,
+.linkButton-solid:visited {
   // Styles for solid version of LinkButton
+  text-decoration: none;
+  background-color: $teal;
+  color: $white;
 }
 
 .linkButton-text {
-
+  font-family: 'Roboto Mono', monospace;
+  margin-right: 3rem;
 }
 
 .linkButton-icon {
-
+  font-size: 5rem;
 }
