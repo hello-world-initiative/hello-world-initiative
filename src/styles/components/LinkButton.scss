@@ -33,19 +33,29 @@
 .linkButton-regular:visited {
   border: 3px solid $teal;
   width: 100%;
+  transtion: .4s ease all;
 
   @include respond(md) {
     width: auto;
+  }
+
+  &:hover {
+    background-color: $teal;
+    color: $white;
   }
 }
 
 .linkButton-solid,
 .linkButton-solid:link,
 .linkButton-solid:visited {
-  // Styles for solid version of LinkButton
   text-decoration: none;
   background-color: $teal;
   color: $white;
+  transtion: .4s ease all;
+
+  &:hover {
+    background-color: darken($teal, 10%);
+  }
 }
 
 .linkButton-text {
