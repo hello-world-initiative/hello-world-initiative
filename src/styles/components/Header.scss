@@ -18,31 +18,31 @@
 // so we're importing from `./images` rather than `../../images/<example>` even though the latter
 // would be correct relative to here
 .header-home {
-  background-image: linear-gradient( to right bottom,
-  rgba(lighten($darkblue, 20%), 0.85),
-  rgba($darkblue, 0.85)),
-  url(./images/home.jpg);
+  background-image: linear-gradient(to right bottom,
+      rgba(lighten($darkblue, 20%), $headerTransparency),
+      rgba($darkblue, $headerTransparency)),
+    url(./images/home.jpg);
 }
 
 .header-about {
-  background-image: linear-gradient( to right bottom,
-  rgba(lighten($darkblue, 20%), 0.85),
-  rgba($darkblue, 0.85)),
-  url(./images/about.jpg);
+  background-image: linear-gradient(to right bottom,
+      rgba(lighten($darkblue, 20%), $headerTransparency),
+      rgba($darkblue, $headerTransparency)),
+    url(./images/about.jpg);
 }
 
 .header-community {
-  background-image: linear-gradient( to right bottom,
-  rgba(lighten($darkblue, 20%), 0.85),
-  rgba($darkblue, 0.85)),
-  url(./images/community.jpg);
+  background-image: linear-gradient(to right bottom,
+      rgba(lighten($darkblue, 20%), $headerTransparency),
+      rgba($darkblue, $headerTransparency)),
+    url(./images/community.jpg);
 }
 
 .header-events {
-  background-image: linear-gradient( to right bottom,
-  rgba(lighten($darkblue, 20%), 0.85),
-  rgba($darkblue, 0.85)),
-  url(./images/events.jpg);
+  background-image: linear-gradient(to right bottom,
+      rgba(lighten($darkblue, 20%), $headerTransparency),
+      rgba($darkblue, $headerTransparency)),
+    url(./images/events.jpg);
 }
 
 .header-title {
