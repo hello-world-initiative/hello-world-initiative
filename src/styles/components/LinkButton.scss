@@ -17,7 +17,6 @@
   }
 }
 
-// Todo: finish these styles
 .linkButton {
   font-size: 2.4rem;
   display: flex;
@@ -33,7 +32,7 @@
 .linkButton-regular:visited {
   border: 3px solid $teal;
   width: 100%;
-  transtion: .4s ease all;
+  transition: .4s ease all;
 
   @include respond(md) {
     width: auto;
@@ -51,7 +50,7 @@
   text-decoration: none;
   background-color: $teal;
   color: $white;
-  transtion: .4s ease all;
+  transition: .4s ease all;
 
   &:hover {
     background-color: darken($teal, 10%);
