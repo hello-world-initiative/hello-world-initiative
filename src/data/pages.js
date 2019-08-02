@@ -10,6 +10,7 @@ const pageData = {
         'HWI is community based',
         'We use free or inexpensive online materials'
       ],
+      highlights: ['everyone', 'community', 'free or inexpensive'],
       sections: [
         `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem temporibus facere doloremque dolorem quisquam iusto labore ut quia molestias qui, eum atque fuga, cumque nesciunt corrupti. Tenetur illo ut, officia consectetur rem ea dolor fuga consequuntur dicta recusandae necessitatibus. Unde esse ipsam, suscipit facere voluptatibus accusamus commodi magni est itaque.`,
         `Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur recusandae dolore culpa. Eligendi odit sint ut architecto similique dicta tempore soluta laborum pariatur numquamobcaecati natus id beatae maxime praesentium dolorum, blanditiis repudiandae minima in molestiae a, dolorem nemo doloribus? Rerum dignissimos totam velit unde quasi, enim error nisi nobis?`,
