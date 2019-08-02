@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <Header text="Hello World Initiative" pageName="home" />
-      <main class="container">
+      <main className="container">
         <Section color="dark">
           <Article>
             <Heading position="left">Our mission</Heading>
