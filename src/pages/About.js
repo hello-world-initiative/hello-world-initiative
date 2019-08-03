@@ -6,6 +6,9 @@ import Heading, { AlternateHeading } from '../components/Heading';
 import LinkButton from '../components/LinkButton';
 import Article from '../components/Article';
 
+import pageData from '../data/pages';
+const { about } = pageData;
+
 const discordURL = 'https://discord.gg/CEGxS5k';
 const meetupURL = 'https://www.meetup.com/thehwi';
 
@@ -16,47 +19,28 @@ const About = () => {
       <main>
         <Section color="dark">
           <Article>
-            <Heading position="left">
-              Coding education should be free for{' '}
-              <span className="heading-highlight">everyone</span>.
-            </Heading>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem
-              temporibus facere doloremque dolorem quisquam iusto labore ut quia
-              molestias qui, eum atque fuga, cumque nesciunt corrupti. Tenetur
-              illo ut, officia consectetur rem ea dolor fuga consequuntur dicta
-              recusandae necessitatibus. Unde esse ipsam, suscipit facere
-              voluptatibus accusamus commodi magni est itaque.
-            </p>
+            <Heading
+              position="left"
+              text={about.main.headings[0]}
+              highlight={about.main.highlights[0]}
+            />
+            <p>{about.main.sections[0]}</p>
           </Article>
           <Article>
-            <Heading position="right">
-              HWI is <span className="heading-highlight">community</span> based.
-            </Heading>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consectetur recusandae dolore culpa. Eligendi odit sint ut
-              architecto similique dicta tempore soluta laborum pariatur numquam
-              obcaecati natus id beatae maxime praesentium dolorum, blanditiis
-              repudiandae minima in molestiae a, dolorem nemo doloribus? Rerum
-              dignissimos totam velit unde quasi, enim error nisi nobis?
-            </p>
+            <Heading
+              position="right"
+              text={about.main.headings[1]}
+              highlight={about.main.highlights[1]}
+            />
+            <p>{about.main.sections[1]}</p>
           </Article>
           <Article>
-            <Heading position="left">
-              We use{' '}
-              <span className="heading-highlight">free or inexpensive</span>{' '}
-              online learning materials.
-            </Heading>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Explicabo minima cumque tempore rerum cupiditate, nobis, hic
-              libero quas non repellat, laborum labore sed eaque consectetur
-              aspernatur officiis architecto fuga. Non accusamus molestias atque
-              quia nihil officia voluptates ipsum. Recusandae dicta dolore ut
-              possimus harum nihil molestiae fugiat quidem laudantium
-              consequatur!
-            </p>
+            <Heading
+              position="left"
+              text={about.main.headings[2]}
+              highlight={about.main.highlights[2]}
+            />
+            <p>{about.main.sections[2]}</p>
           </Article>
         </Section>
         <Section color="light">
@@ -65,10 +49,10 @@ const About = () => {
               Want to get involved?
             </AlternateHeading>
             <p>
-              We have an active online <Link to="/community">community</Link>
+              We have an active <Link to="/community">online community</Link>{' '}
               where you can come to get help, chat about coding, or contribute
-              to projects. We also plan regular <Link to="/events">events</Link>
-              for members to work together and learn in person.
+              to projects. We also plan regular <Link to="/events">events</Link>{' '}
+              for people to work together and learn face to face.
             </p>
           </Article>
           <div className="linkButton-container">
