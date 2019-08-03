@@ -5,6 +5,7 @@ import Heading from '../components/Heading';
 import Article from '../components/Article';
 
 import pageData from '../data/pages';
+import LinkPlain from '../components/LinkPlain';
 const { home } = pageData;
 
 const Home = () => {
@@ -17,6 +18,9 @@ const Home = () => {
             <Heading position="left">{home.heading}</Heading>
             <p>{home.body}</p>
           </Article>
+          <div className="linkPlain-container">
+            <LinkPlain to="/about" text="Learn More" />
+          </div>
         </Section>
       </main>
     </>
