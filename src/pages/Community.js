@@ -17,7 +17,11 @@ const Community = () => {
       <main>
         <Section color="dark">
           <Article>
-            <Heading position="left">{community.main.heading}</Heading>
+            <Heading
+              position="left"
+              text={community.main.heading}
+              highlight={community.main.highlight}
+            />
             <p>{community.main.body}</p>
           </Article>
         </Section>

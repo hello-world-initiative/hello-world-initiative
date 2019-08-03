@@ -17,7 +17,11 @@ const Events = () => {
       <main>
         <Section color="dark">
           <Article>
-            <Heading position="left">{events.main.heading}</Heading>
+            <Heading
+              position="left"
+              text={events.main.heading}
+              highlight={events.main.highlight}
+            />
             <p>{events.main.body}</p>
           </Article>
         </Section>

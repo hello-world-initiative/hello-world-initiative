@@ -19,15 +19,27 @@ const About = () => {
       <main>
         <Section color="dark">
           <Article>
-            <Heading position="left">{about.main.headings[0]}</Heading>
+            <Heading
+              position="left"
+              text={about.main.headings[0]}
+              highlight={about.main.highlights[0]}
+            />
             <p>{about.main.sections[0]}</p>
           </Article>
           <Article>
-            <Heading position="right">{about.main.headings[1]}</Heading>
+            <Heading
+              position="right"
+              text={about.main.headings[1]}
+              highlight={about.main.highlights[1]}
+            />
             <p>{about.main.sections[1]}</p>
           </Article>
           <Article>
-            <Heading position="left">{about.main.headings[2]}</Heading>
+            <Heading
+              position="left"
+              text={about.main.headings[2]}
+              highlight={about.main.highlights[2]}
+            />
             <p>{about.main.sections[2]}</p>
           </Article>
         </Section>
