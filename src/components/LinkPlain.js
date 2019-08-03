@@ -5,10 +5,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const LinkPlain = ({ to, text }) => (
   <a href={to} rel="noopener noreferrer" className="linkPlain">
     <span className="linkPlain-text">{text}</span>
-    <span className="linkButton-icon">
-      <FontAwesomeIcon icon={['fas', 'fa-arrow-right']} />
+    <span className="linkPlain-icon">
+      <FontAwesomeIcon icon={['fas', 'arrow-right']} />
     </span>
-    {console.log(<FontAwesomeIcon icon={['fas', 'arrow-right']} />)}
   </a>
 );
 
