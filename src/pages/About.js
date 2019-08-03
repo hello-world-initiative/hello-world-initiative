@@ -46,9 +46,14 @@ const About = () => {
         <Section color="light">
           <Article>
             <AlternateHeading position="left">
-              {about.bottom.heading}
+              Want to get involved?
             </AlternateHeading>
-            <p>{about.bottom.body}</p>
+            <p>
+              We have an active <Link to="/community">online community</Link>{' '}
+              where you can come to get help, chat about coding, or contribute
+              to projects. We also plan regular <Link to="/events">events</Link>{' '}
+              for people to work together and learn face to face.
+            </p>
           </Article>
           <div className="linkButton-container">
             <LinkButton

@@ -16,10 +16,6 @@ const pageData = {
         `Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur recusandae dolore culpa. Eligendi odit sint ut architecto similique dicta tempore soluta laborum pariatur numquamobcaecati natus id beatae maxime praesentium dolorum, blanditiis repudiandae minima in molestiae a, dolorem nemo doloribus? Rerum dignissimos totam velit unde quasi, enim error nisi nobis?`,
         `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo minima cumque tempore rerum cupiditate, nobis, hic libero quas non repellat, laborum labore sed eaque consectetur aspernatur officiis architecto fuga. Non accusamus molestias atque quia nihil officia voluptates ipsum. Recusandae dicta dolore ut possimus harum nihil molestiae fugiat quidem laudantium consequatur!`
       ]
-    },
-    bottom: {
-      heading: 'Want to get involved?',
-      body: `We have an active online community where you can come to get help, chat about coding, or contribute to projects. We also plan regular events for members to work together and learn in person.`
     }
   },
   community: {
