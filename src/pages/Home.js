@@ -19,7 +19,7 @@ const Home = () => {
             <p>{home.body}</p>
           </Article>
           <div className="linkPlain-container">
-            <LinkPlain to="/about" text="Learn More &rarr;" />
+            <LinkPlain to="/about" text="Learn More" />
           </div>
         </Section>
       </main>

@@ -2,47 +2,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .linkPlain,
 .linkPlain:link,
 .linkPlain:visited {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
   position: relative;
   font-size: 2.4rem;
   margin-bottom: 2.5rem;
-  transition: .4s ease all;
-
-  &:hover {
-
-    &>.linkPlain-text {
-
-      &::before {
-        height: 130%;
-        width: 120%;
-        left: -10%;
-        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
-      }
-    }
-  }
 }
 
 .linkPlain-text {
-  position: relative;
   color: $white;
   font-family: 'Roboto Mono', monospace;
-  z-index: 100;
+  margin-right: 2rem;
+}
 
-  &::before {
-    content: "";
-    position: absolute;
-    background-color: $teal;
-    bottom: -20%;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    box-shadow: none;
-    transform-origin: 50%;
-    transition: .4s ease all;
-    z-index: -10;
-  }
+.linkPlain-icon {
+  font-size: 2.4rem;
 }
