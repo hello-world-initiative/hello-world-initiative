@@ -14,7 +14,7 @@ To run this project, you'll need to have NodeJS v8.x or higher installed. If you
 
 To contribute to the Hello World Initiative website, first clone a copy of this repository to your own computer:
 
-`git clone https://github.com/pbzona/hello-world-initiative.git`
+`git clone https://github.com/hello-world-initiative/hello-world-initiative.git`
 
 Move into that directory:
 
@@ -54,6 +54,6 @@ If you find a bug or would like to open up discussion about the direction of the
 
 ## To Do
 
-- Handle image size better. Currently the bundle (and project itself) is far too big because we're using large hi-res images. Possible solutions: LFS, manually resize images based on breakpoints, use grayscale images, dynamic resizing during builds, i.e. ImageMagick.
-- Remove placeholder SCSS and integrate it into component structure better.
-- Refactor everything
+- ~Handle image size better. Currently the bundle (and project itself) is far too big because we're using large hi-res images. Possible solutions: LFS, manually resize images based on breakpoints, use grayscale images, dynamic resizing during builds, i.e. ImageMagick.~
+- ~Remove placeholder SCSS and integrate it into component structure better.~
+- Refactor everything (never done)
