@@ -12,9 +12,9 @@ To run this project, you'll need to have NodeJS v8.x or higher installed. If you
 
 ## Installation
 
-To contribute to the Hello World Initiative website, first clone a copy of this repository to your own computer:
+To contribute to the Hello World Initiative website, first [create a fork](https://help.github.com/en/articles/fork-a-repo) and clone it to your own computer:
 
-`git clone https://github.com/hello-world-initiative/hello-world-initiative.git`
+`git clone https://github.com/<your github username>/hello-world-initiative.git`
 
 Move into that directory:
 
@@ -27,6 +27,8 @@ Move into that directory:
 or
 
 `yarn install`
+
+> Be sure to [keep your fork up to date](https://help.github.com/en/articles/fork-a-repo#keep-your-fork-synced) while working on contributions so that you don't run into conflicts!
 
 ## Development
 
@@ -42,7 +44,7 @@ Either one of these commands will start a local development server that will aut
 
 ## Contributing
 
-To contribute to the project, we ask that you create a new branch with a descriptive name to make your pull request. For example, if you're fixing a bug related to a React component called "Nav," your branch name might be `fix-nav-bug`. Pull requests can be made against the master branch, unless otherwise specified.
+To contribute to the project, we ask that you create a new branch on your fork with a descriptive name to make your pull request. For example, if you're fixing a bug related to a React component called "Nav," your branch name might be `fix-nav-bug`. Pull requests can be made against the master branch of this project, unless otherwise specified.
 
 In your pull request, please provide a description of what your new changes will do. This means what features have been added (if any), what bugs were fixed, what functionality was added, and any potential issues that you anticipate coming up if you can think of any. If you're creating a pull request to address an open issue, please reference the issue by linking it in the description of your PR.
 
