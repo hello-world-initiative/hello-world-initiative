@@ -6,9 +6,13 @@ import * as serviceWorker from './serviceWorker';
 
 // Font Awesome configuration
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faDiscord, faMeetup } from '@fortawesome/free-brands-svg-icons';
+import {
+  faDiscord,
+  faMeetup,
+  faGithub
+} from '@fortawesome/free-brands-svg-icons';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-library.add(faDiscord, faMeetup, faArrowRight);
+library.add(faDiscord, faMeetup, faArrowRight, faGithub);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
