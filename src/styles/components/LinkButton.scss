@@ -7,12 +7,10 @@
 
   @include respond(md) {
     flex-direction: row;
-    width: 85%;
     margin: 0 auto;
   }
 
   @include respond(lg) {
-    width: 85%;
     margin: 0 auto;
   }
 }
