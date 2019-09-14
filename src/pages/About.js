@@ -11,6 +11,8 @@ const { about } = pageData;
 
 const discordURL = 'https://discord.gg/CEGxS5k';
 const meetupURL = 'https://www.meetup.com/thehwi';
+const githubURL =
+  'https://github.com/hello-world-initiative/hello-world-initiative';
 
 const About = () => {
   return (
@@ -66,6 +68,12 @@ const About = () => {
               to={meetupURL}
               text="Meetup"
               icon={['fab', 'meetup']}
+              type="regular"
+            />
+            <LinkButton
+              to={githubURL}
+              text="Github"
+              icon={['fab', 'github']}
               type="regular"
             />
           </div>
